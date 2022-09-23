@@ -1,0 +1,20 @@
+
+.row-poster{
+    width:250px;
+    min-height: 100px;
+    margin-right: 10px;
+    object-fit: contain;
+    transition: transform .3s;
+
+}
+
+.row-poster.row-posterLarge{
+    max-height: 250px;
+}
+.row-poster:hover  {
+    transform: scale(1.09);
+}
+.row-poster.row-posterLarge:hover{
+    transform: scale(1.1);
+    
+}
