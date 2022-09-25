@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../../images/netflix.svg";
-import { Link } from "react-router-dom";
 import "./Navbar.css";
 function Navbar() {
   return (
